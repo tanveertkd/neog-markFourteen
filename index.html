@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <title>Stock Simulator</title>
+</head>
+<body>
+    <div class="primary-container">
+        <img src="./img/bg-primary.svg" class="primary-bg">
+        <nav class="navigation">
+            <p>Stock Simulator</p>
+        </nav>
+        
+        <div class="secondary-container">
+            
+            <header class="hero">
+                <p class="hero-header">Check the profit/loss of your Stock</p>
+            </header>
+            <input type="number" id="input-price" placeholder="Stock bought at" />
+            <input type="number" id="input-price" placeholder="Stock current price" />
+            <input type="number" id="input-price" placeholder="Stock quantity" />
+            <div class="secondary-output" ></div>
+            <button id="input-btn">Check P&L</button>
+        
+        </div> 
+        
+        <div class="popup-modal">
+            <div class="popup-modal-content">
+                <span class="popup-modal-close-btn">&times;</span>
+                <img class="popup-modal-img-loss popup-modal-img" src="./img/loss.svg" alt="asset-loss" />
+                <img class="popup-modal-img-profit popup-modal-img" src="./img/profit.svg" alt="asset-profit" />
+                <p class="popup-modal-text"></p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div id="footer-header">Are your investments making gains?</div>
+        <p>Check to see if your stocks are making any profit or loss! Just input the price you bought the stock at and its current price and check to see!</p>
+        
+        <div id="footer-socials">
+            <ul class="footer-socials-list">
+                <li>
+                    <a class="footer-links" href="https://www.github.com"><i class="fab fa-github fa-lg social-icn"></i></a>
+                </li>
+                <li>
+                    <a class="footer-links" href="https://www.linkedin.com"><i class="fab fa-linkedin fa-lg social-icn"></i></a>
+                </li>
+                <li>
+                    <a class="footer-links" href="https://www.instagram.com"><i class="fab fa-instagram fa-lg social-icn"></i></a>
+                </li>
+            </ul>
+            
+        </div>
+
+        <p id="footer-cc-text"><i class="far fa-copyright"></i> | 2021 Rights reserved</p>
+    </footer>
+
+    <script type="text/javascript" src="app.js"> </script>
+</body>
+</html>
