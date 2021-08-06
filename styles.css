@@ -7,7 +7,7 @@
 
 :root {
     --primary-bg-color: #E11D48;
-    --primary-shadow-color: #BFDBFE;
+    --primary-shadow-color: #E2E8F0;
     --primary-btn-color: #FCD34D;
 }
 
@@ -80,6 +80,14 @@ body {
 
 .popup-modal-img {
     margin: 2.5rem auto;
+}
+
+.popup-modal-img-loss {
+    max-width: 50%;
+}
+
+.popup-modal-img-profit {
+    max-width: 80%;
 }
 
 .popup-modal-text {
@@ -182,4 +190,30 @@ body {
 #footer-cc-text {
     display: block;
     margin: auto;
+}
+
+.pl-popup {
+    display: flex;
+    color: black;
+    margin: auto;
+    width: 100%;
+    background-color: var(--primary-bg-color);
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+.pl-popup p {
+    margin: 1rem auto;
+    color: white;
+}
+
+#pl-close-btn {
+    background: transparent;
+    border: none;
+    margin: auto 0.5rem;
+    color: white;
+    font-size: medium;
+    font-weight: 800;
+    float: right;
+    left: 0.2rem;
 }
