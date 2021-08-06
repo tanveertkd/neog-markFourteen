@@ -9,6 +9,7 @@
     --primary-bg-color: #E11D48;
     --primary-shadow-color: #E2E8F0;
     --primary-btn-color: #FCD34D;
+    --primary-bg-color-dark: #475569;
 }
 
 body {
@@ -28,6 +29,10 @@ body {
     max-width: 100%;
     height: auto;
     background-size: cover;
+}
+
+.bg-dark {
+    display: none;
 }
 
 .navigation {
@@ -53,6 +58,12 @@ body {
     font-weight: bold;
 }
 
+.hero-dark {
+    font-size: large;
+    font-weight: bold;
+    color: var(--primary-bg-color-dark);
+}
+
 .sub-header {
     font-size: medium;
 }
@@ -70,6 +81,16 @@ body {
 
 .popup-modal-content {
     background-color: var(--primary-btn-color);
+    margin: auto;
+    padding: 2.5rem;
+    width: 40%;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0.5pt 0.5pt 10pt var(--primary-shadow-color);
+}
+
+.popup-modal-content-dark {
+    background-color: var(--primary-bg-color-dark);
     margin: auto;
     padding: 2.5rem;
     width: 40%;
