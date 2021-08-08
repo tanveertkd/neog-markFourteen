@@ -71,7 +71,7 @@ const showLoss = (bought, current, quantity) => {
     const totalCost = bought*quantity;
     const totalLossPercent = ((totalLoss/totalCost)*100).toFixed(2);
 
-    if(totalLoss>50){
+    if(totalLossPercent>50){
         darkMode();
     }
 
