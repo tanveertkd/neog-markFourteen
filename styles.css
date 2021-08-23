@@ -238,3 +238,92 @@ body {
     float: right;
     left: 0.2rem;
 }
+
+@media (max-width: 600px) {
+
+    .navigation {
+        top: 0.5rem;
+        left: 0.5rem;
+    }
+    
+    .navigation p {
+        font-size: medium;
+        font-weight: bold;
+        letter-spacing: 0.2em;
+    }
+
+    .secondary-container {
+        display: block;
+        width: 80%;
+        margin: 3rem auto;
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        top: 3.5%;
+        left: 3.5%;
+        justify-content: center;
+    }
+    
+    .secondary-container input {
+        display: block;
+        margin: 1rem auto;
+        padding: 0.5rem;
+        width: 80%;
+    }
+    
+    #input-btn {
+        display: block;
+        margin: 1rem auto;
+        padding: 0.5rem;
+        width: 80%;
+        font-weight: bold;
+    }
+    
+    .pl-popup {
+        width: 80%;
+    }
+
+    .pl-popup p {
+        font-size: 0.9em;
+        margin: 0.25rem auto;
+    }
+
+    #pl-close-btn {
+        margin: auto 0.25rem;
+        font-size: 0.9em;
+        font-weight: 800;
+        left: 0.1rem;
+    }
+
+    .popup-modal {
+        top: 15%;
+    }
+
+    .popup-modal-content {
+        padding: 1.25rem;
+        width: 80%;
+    }
+    
+    .popup-modal-content-dark {
+        padding: 1.25rem;
+        width: 80%;
+    }
+
+    #footer-socials {
+        margin: 0.5rem auto;
+        padding: auto 0.5rem;
+    }
+
+    #footer-header {
+        font-size: medium;
+    }
+
+    .footer p {
+        display: small;
+        margin: 0.2rem;
+    }
+
+    #footer-cc-text {
+        font-size: small;
+    }
+
+}
